@@ -23,6 +23,9 @@ return <div>
         {/* for forloop */}
         <h1 className="heading">Todoo App 3</h1>
         {items}
+        {/* for maping data using this code */}
+        <h1 className="heading">Todoo App 4</h1>
+        {Data.map((item, index) =><Card key={index} texttitle={item.title} textdes={item.desc} />)}
     </div>
 }
 
