@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    background-color: aqua;
+    padding: 15px;
+    color:brown;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;
+    border-radius: 5px;
+}
+.card{
+    background-color: burlywood;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 4px 4px gray;
+    border-radius: 5px;
+    width: 390px;
+    display: inline-block;
+}
+.card-heading{
+    margin-bottom: 15px;
+}
+.card-write{
+margin-bottom: 5px;
+}
+.time{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: end;
+    box-shadow: indigo;
+}
