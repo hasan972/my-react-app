@@ -1,6 +1,7 @@
 import React from "react";
 import Card from './components/card'
 import Data from './data.json'
+import Card2 from './components/card2'
 
 let items = [];
 for(let x=0; x<Data.length; x++){
@@ -20,13 +21,19 @@ return <div>
         <Card texttitle={Data[1].title} textdes={Data[1].desc} />
         <Card texttitle={Data[2].title} textdes={Data[2].desc} />
         <Card texttitle={Data[3].title} textdes={Data[3].desc} />
+
         {/* for forloop */}
         <h1 className="heading">Todoo App 3</h1>
         {items}
+        
         {/* for maping data using this code */}
         <h1 className="heading">Todoo App 4</h1>
         {Data.map((item, index) =><Card key={index} texttitle={item.title} textdes={item.desc} />)}
-    </div>
+
+        {/* using class for call component */}
+        <h1 className="heading">Using class for call component</h1>
+        <Card2 text="Father & Mother" des="an i am description" />
+</div>
 }
 
 export default App;
