@@ -2,6 +2,7 @@ import React from "react";
 import Card from './components/card'
 import Data from './data.json'
 import Card2 from './components/card2'
+import State from './state'
 
 let items = [];
 for(let x=0; x<Data.length; x++){
@@ -33,6 +34,10 @@ return <div>
         {/* using class for call component */}
         <h1 className="heading">Using class for call component</h1>
         <Card2 text="Father & Mother" des="an i am description" />
+
+        {/* now we start thge state and call the component and change when we search any value or keyword */}
+        <h1 className="heading">Hare is the work about the state</h1>
+        <State />
 </div>
 }
 

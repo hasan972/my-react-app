@@ -34,3 +34,19 @@ margin-bottom: 5px;
     box-shadow: indigo;
     color: brown;
 }
+.count{
+    text-align: center;
+    color:darkblue;
+    font-size: 40px;
+
+}
+button {
+    background-color: darkcyan;
+    padding: 10px;
+    border-radius:5px;
+    border: orangered;
+    margin-right: 10px;
+    font-size: 2rem;
+    width: 80;
+    margin: 10px;
+}
