@@ -3,6 +3,7 @@ import Card from './components/card'
 import Data from './data.json'
 import Card2 from './components/card2'
 import State from './state'
+import ConditionalRendaring from './conditional-rendaring'
 
 let items = [];
 for(let x=0; x<Data.length; x++){
@@ -38,6 +39,9 @@ return <div>
         {/* now we start thge state and call the component and change when we search any value or keyword */}
         <h1 className="heading">Hare is the work about the state</h1>
         <State />
+        {/* conditionl rendaring */}
+        <h1 className="heading"> hare is the conditional rendaring</h1>
+        <ConditionalRendaring />
 </div>
 }
 
