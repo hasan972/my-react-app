@@ -4,6 +4,7 @@ import Data from './data.json'
 import Card2 from './components/card2'
 import State from './state'
 import ConditionalRendaring from './conditional-rendaring'
+import EventBinding from './eventBinding/index'
 
 let items = [];
 for(let x=0; x<Data.length; x++){
@@ -42,6 +43,10 @@ return <div>
         {/* conditionl rendaring */}
         <h1 className="heading"> hare is the conditional rendaring</h1>
         <ConditionalRendaring />
+
+        {/* this code about of binding */}
+        <h1 className="heading">Binding</h1>
+        <EventBinding />
 </div>
 }
 
