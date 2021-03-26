@@ -6,6 +6,7 @@ import State from './state'
 import ConditionalRendaring from './conditional-rendaring'
 import EventBinding from './eventBinding/index'
 import EventHandeleronChange from './event_handaler_class/index'
+import UseHook from './use-hook/index'
 
 let items = [];
 for(let x=0; x<Data.length; x++){
@@ -51,6 +52,10 @@ return <div>
         {/* event-handeler = for onChange */}
         <h1 className="heading">this is code for event handele = onChnage</h1>
         <EventHandeleronChange />
+
+        {/* using set-hook */}
+        <h1 className="heading">react hook : useState</h1>
+        <UseHook />
 </div>
 }
 
