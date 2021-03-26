@@ -7,6 +7,7 @@ import ConditionalRendaring from './conditional-rendaring'
 import EventBinding from './eventBinding/index'
 import EventHandeleronChange from './event_handaler_class/index'
 import UseHook from './use-hook/index'
+import Form from './from/from'
 
 let items = [];
 for(let x=0; x<Data.length; x++){
@@ -56,6 +57,9 @@ return <div>
         {/* using set-hook */}
         <h1 className="heading">react hook : useState</h1>
         <UseHook />
+        {/* This senction is using for form  */}
+        <h1 className="heading"> Form</h1>
+        <Form />
 </div>
 }
 
