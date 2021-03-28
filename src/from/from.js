@@ -52,6 +52,10 @@ export default function Ffrom() {
                     <input type="password" name="password" placeholder="password" value={Password} onChange={handelPasswordChange} required></input>
                 </div>
                 <div>
+                    <lable htmlFor="comfirmPassword">Confirm Password</lable>
+                    <input type="pass" name="pass" placeholder="Confirm Password"></input>
+                </div>
+                <div>
                     <button type="submit">SUBMIT</button>
                 </div>
             </form>
