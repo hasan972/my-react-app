@@ -9,6 +9,9 @@ import EventHandeleronChange from './event_handaler_class/index'
 import UseHook from './use-hook/index'
 import Form from './from/from'
 
+
+import TestComponent from './testComponent/index1'
+
 let items = [];
 for(let x=0; x<Data.length; x++){
     items.push(<Card texttitle={Data[x].title} textdes={Data[x].desc} />)
@@ -60,7 +63,15 @@ return <div>
         {/* This senction is using for form  */}
         <h1 className="heading"> Form</h1>
         <Form />
+
+
+        {/* TestingComponent */}
+        <section className="booklist">
+        <h1 className='heading'>hare is the important code for add so many item using object</h1>
+        <TestComponent />
+        </section>
 </div>
+
 }
 
 export default App;
