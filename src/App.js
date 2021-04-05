@@ -10,7 +10,7 @@ import UseHook from './use-hook/index'
 import Form from './from/from'
 
 
-import TestComponent from './testComponent/index1'
+//import TestComponent from './testComponent/index1'
 
 let items = [];
 for(let x=0; x<Data.length; x++){
@@ -65,11 +65,12 @@ return <div>
         <Form />
 
 
-        {/* TestingComponent */}
+        {/* TestingComponent
         <section className="booklist">
         <h1 className='heading'>hare is the important code for add so many item using object</h1>
         <TestComponent />
-        </section>
+        
+        </section> */}
 </div>
 
 }
